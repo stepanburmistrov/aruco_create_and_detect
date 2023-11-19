@@ -97,5 +97,5 @@ def createArucoMarkersPDF(markerList, mmSize):
     pdf.output(f"{folderName}/ArucoMarkers.pdf")
 
 # Пример использования функции
-marker_list = [(4, 2, 1000), (4, 1, 1000)]*15
-createArucoMarkersPDF(marker_list, 70)  # Создает PDF с маркерами размером 50 мм
+marker_list = [(4, 2, 1000), (4, 1, 1000)]
+createArucoMarkersPDF(marker_list, 50)  # Создает PDF с маркерами размером 50 мм
